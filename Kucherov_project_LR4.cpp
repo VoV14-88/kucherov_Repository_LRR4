@@ -61,7 +61,7 @@ void enterNumber(int& varLink, string label) {
     
     void calcPerim()
     {
-        //разрабатывается Developer4 - ветка branch_fun_4
+        cout<<"Деление А на В равно "<<side1 / side2;
     }
     
     //структура меню
