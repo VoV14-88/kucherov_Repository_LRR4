@@ -21,6 +21,7 @@ bool UserInput(string input) {
     catch (...) //если возникла ошибка в блоке try
     { return false; }
     return true;
+    
 }
 
 //функция ввода данных
