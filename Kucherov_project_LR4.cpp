@@ -49,7 +49,8 @@ void enterNumber(int& varLink, string label) {
     
     void enterSide2()
     {
-        //разрабатывается Developer2 - ветка branch_fun_2
+        enterNumber(side2, "Введите значение B: ");
+        cout << "Значение B успешно сохранено: " << side2 << endl;    
     }
     
     void calcArea()
