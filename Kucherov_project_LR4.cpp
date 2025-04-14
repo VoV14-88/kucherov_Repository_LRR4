@@ -39,20 +39,24 @@ void enterNumber(int& varLink, string label) {
         //правильно введенного текстового значения
         varLink = stoi(str_input);
     }
+
     
     void enterSide1()
     {
-        //разрабатывается Developer1 - ветка branch_fun_1
+        enterNumber(side1, "Введите значение A: ");
+        cout << "Значение A успешно сохранено: " << side1 << endl;
     }
     
     void enterSide2()
     {
-        //разрабатывается Developer2 - ветка branch_fun_2
+        enterNumber(side2, "Введите значение B: ");
+        cout << "Значение B успешно сохранено: " << side2 << endl;    
     }
     
     void calcArea()
     {
-        //разрабатывается Developer3 - ветка branch_fun_3
+        int g1 = side1*side2;
+        cout<<"Проиведение А на В равно "<<g1;
     }
     
     void calcPerim()
