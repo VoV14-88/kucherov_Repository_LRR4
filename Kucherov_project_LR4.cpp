@@ -52,7 +52,8 @@ void enterNumber(int& varLink, string label) {
     
     void calcArea()
     {
-        //разрабатывается Developer3 - ветка branch_fun_3
+        int g1 = side1*side2;
+        cout<<"Проиведение А на В равно "<<g1;
     }
     
     void calcPerim()
