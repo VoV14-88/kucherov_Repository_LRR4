@@ -39,6 +39,7 @@ void enterNumber(int& varLink, string label) {
         //правильно введенного текстового значения
         varLink = stoi(str_input);
     }
+
     
     void enterSide1()
     {
