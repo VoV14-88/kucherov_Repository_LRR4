@@ -37,7 +37,7 @@ void enterNumber(int& varLink, string label) {
     }
     //присвоение переменной varLink преобразованного в тип int
         //правильно введенного текстового значения
-        varLink = stol(str_input);
+        varLink = stoi(str_input);
     }
     
     void enterSide1()
@@ -73,7 +73,7 @@ void enterNumber(int& varLink, string label) {
             {3, {"Calculate of Area", calcArea}},
             {4, {"Calculate of Perimetr", calcPerim}},
         };
-        
+
         int choice = 0;
 
 while (true) {
@@ -96,3 +96,4 @@ while (true) {
     cout << endl;
 }
 return 0;
+    }
